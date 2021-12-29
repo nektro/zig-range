@@ -6,6 +6,6 @@
 ///   // 'i' will increment from 0 -> 9
 /// }
 /// ```
-pub fn range(len: usize) []const u0 {
-    return @as([*]u0, undefined)[0..len];
+pub fn range(len: usize) []const void {
+    return @as([*]void, undefined)[0..len];
 }
